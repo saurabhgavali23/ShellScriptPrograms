@@ -1,0 +1,552 @@
+Dec  2 10:09:56 admin1-HP-EliteBook-Folio-9480m rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="630" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Dec  2 10:10:01 admin1-HP-EliteBook-Folio-9480m anacron[2586]: Job `cron.daily' terminated
+Dec  2 10:10:01 admin1-HP-EliteBook-Folio-9480m anacron[2586]: Normal exit (1 job run)
+Dec  2 10:13:08 admin1-HP-EliteBook-Folio-9480m pulseaudio[1001]: W: [pulseaudio] sink-input.c: Failed to create sink input: sink is suspended.
+Dec  2 10:13:22 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-29 noise=9999 txrate=300000
+Dec  2 10:17:01 admin1-HP-EliteBook-Folio-9480m CRON[2858]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 10:17:50 admin1-HP-EliteBook-Folio-9480m pulseaudio[1001]: W: [pulseaudio] sink-input.c: Failed to create sink input: sink is suspended.
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: Failed to apply DRM plane transform 0: Permission denied
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Allocate new frame buffer 768x1366 stride
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 10:27:16 admin1-HP-EliteBook-Folio-9480m gsd-color[1042]: failed to set screen _ICC_PROFILE: Failed to open file “/home/admin1/.local/share/icc/edid-f0cb89c45b53adc93f98e9594806f337.icc”: Permission denied
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: JS WARNING: [resource:///org/gnome/shell/ui/workspaceThumbnail.js 903]: reference to undefined property "_switchWorkspaceNotifyId"
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:67 (0x7f52c03c7c48 @ 3)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f52c03c7b38 @ 21)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:69 (0x7f52c03c7c48 @ 33)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f52c03c7b38 @ 21)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already deallocated - impossible to connect to signal. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:49 (0x7f52c03c7b38 @ 108)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fff70 b   resource:///org/gnome/shell/ui/tweener.js:73 (0x7f52c03c7cd0 @ 3)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f52c03c7de0 @ 36)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f52c03c7b38 @ 319)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fff70 b   resource:///org/gnome/shell/ui/tweener.js:75 (0x7f52c03c7cd0 @ 33)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f52c03c7de0 @ 36)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f52c03c7b38 @ 319)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4ffed0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:506 (0x7f52c03d3ef0 @ 229)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:603 (0x7f52c03d3f78 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:40 (0x7f52c03c7ab0 @ 38)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): EDID vendor "CMN", prod id 5239
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Printing DDC gathered Modelines:
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Modeline "1366x768"x0.0   76.42  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (48.0 kHz eP)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Modeline "1366x768"x0.0   50.95  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (32.0 kHz e)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to set any property to it.
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:281 (0x7f52c03d3bc0 @ 856)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc258 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f52c03d3bc0 @ 1462)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc258 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already finalized. Impossible to set any property to it.
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object .Gjs_DashItemContainer (0x55e73d7f09b0), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f52c03d3bc0 @ 1462)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f52c02d6c48 @ 5)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505030 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f52c03d3b38 @ 54)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f52c03d3bc0 @ 1626)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f52c02d6c48 @ 17)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505030 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f52c03d3b38 @ 54)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f52c03d3bc0 @ 1626)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73f421060), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:18 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:31 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 10:27:31 admin1-HP-EliteBook-Folio-9480m gnome-shell[842]: message repeated 2 times: [ Failed to read EDID from 'eDP-1': No such file or directory]
+Dec  2 10:27:31 admin1-HP-EliteBook-Folio-9480m gsd-color[1042]: failed to set screen _ICC_PROFILE: Failed to open file “/home/admin1/.local/share/icc/edid-f0cb89c45b53adc93f98e9594806f337.icc”: Permission denied
+Dec  2 10:27:31 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Allocate new frame buffer 1366x768 stride
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:67 (0x7f52c03c7c48 @ 3)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f52c03c7b38 @ 21)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:69 (0x7f52c03c7c48 @ 33)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f52c03c7b38 @ 21)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:49 (0x7f52c03c7b38 @ 108)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already deallocated - impossible to connect to signal. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fff70 b   resource:///org/gnome/shell/ui/tweener.js:73 (0x7f52c03c7cd0 @ 3)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f52c03c7de0 @ 36)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f52c03c7b38 @ 319)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fff70 b   resource:///org/gnome/shell/ui/tweener.js:75 (0x7f52c03c7cd0 @ 33)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc580 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f52c03c7de0 @ 36)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc4e0 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f52c03c7b38 @ 319)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f52c03c7ab0 @ 16)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4ffed0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:506 (0x7f52c03d3ef0 @ 229)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc4e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:603 (0x7f52c03d3f78 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc458 i   resource:///org/gnome/shell/ui/tweener.js:40 (0x7f52c03c7ab0 @ 38)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x55e73bedc3c8 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f52c02d6bc0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e500bc0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc308 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f52862dd2b8 @ 348)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e5017b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc278 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f52862db890 @ 27)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e5024a0 b   self-hosted:917 (0x7f52c03f12b8 @ 394)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc1f0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f52862bfbc0 @ 122)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x7ffe0e505de0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc158 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f52862ccde0 @ 116)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e5069c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc0d0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1662 (0x7f52862ccbc0 @ 17)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x7ffe0e5075a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e507660 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): EDID vendor "CMN", prod id 5239
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Printing DDC gathered Modelines:
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Modeline "1366x768"x0.0   76.42  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (48.0 kHz eP)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (II) modeset(0): Modeline "1366x768"x0.0   50.95  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (32.0 kHz e)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to set any property to it.
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:281 (0x7f52c03d3bc0 @ 856)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc258 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f52c03d3bc0 @ 1462)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc258 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already finalized. Impossible to set any property to it.
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object .Gjs_DashItemContainer (0x55e73bf55cd0), has been already finalized. Impossible to get any property from it.
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f52c03d3bc0 @ 1462)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f52c02d6c48 @ 5)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505030 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f52c03d3b38 @ 54)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f52c03d3bc0 @ 1626)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x55e73bedc2e8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f52c02d6c48 @ 17)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x7ffe0e505030 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f52c03d3b38 @ 54)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e505180 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f52c03d3bc0 @ 1626)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object St.Label (0x55e73db0c860), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e505980 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f52c03d3c48 @ 100)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x55e73bedc1e0 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f52c03d3cd0 @ 10)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x7ffe0e506d90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x55e73bedc150 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f52c03cf808 @ 159)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x7ffe0e5079e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:27:33 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f52c03cf780 @ 15)
+Dec  2 10:36:42 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 10:37:01 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object .Gjs_AppIndicatorIconActor__1 (0x55e73c30af10), has been already finalized. Impossible to set any property to it.
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fe050 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f52c03b5de0 @ 87)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc7d0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f52862bf098 @ 58)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e4fec30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e4fecf0 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e4fede0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f52862a9cd0 @ 22)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e4ffa30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc6a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f52862a9340 @ 225)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e500610 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc628 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f528629c4d8 @ 37)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc568 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f52c025a120 @ 431)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc4e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f52c025abc0 @ 13)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e501310 b   self-hosted:251 (0x7f52c03c3ab0 @ 223)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc468 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f52c025ab38 @ 64)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc3e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f52c025ac48 @ 87)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e502810 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e503020 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f52c016c670 @ 254)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #17 0x7ffe0e504410 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #18 0x55e73bedc2a8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f52c016c450 @ 40)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #19 0x7ffe0e505770 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #20 0x55e73bedc200 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f52c0150bc0 @ 188)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #21 0x7ffe0e506ad0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #22 0x55e73bedc150 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f52c0150c48 @ 391)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #23 0x7ffe0e507e30 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #24 0x55e73bedc0d0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f52c014fb38 @ 25)
+Dec  2 10:37:02 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 10:37:32 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 10:37:32 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 10:37:32 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 10:37:32 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 10:37:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Dec  2 10:55:08 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: (/usr/lib/firefox/firefox:2316): dconf-WARNING **: 10:55:08.875: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Dec  2 11:01:16 admin1-HP-EliteBook-Folio-9480m kernel: [ 5759.852746] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 11:01:17 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: (/usr/lib/firefox/firefox:3390): dconf-WARNING **: 11:01:17.688: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Dec  2 11:01:24 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-23 noise=9999 txrate=144400
+Dec  2 11:01:27 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 11:01:27 admin1-HP-EliteBook-Folio-9480m anacron[3496]: Anacron 2.3 started on 2019-12-02
+Dec  2 11:01:27 admin1-HP-EliteBook-Folio-9480m anacron[3496]: Normal exit (0 jobs run)
+Dec  2 11:01:35 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 11:02:15 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Activating service name='org.gnome.Nautilus' requested by ':1.13' (uid=1000 pid=1313 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec  2 11:02:15 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Successfully activated service 'org.gnome.Nautilus'
+Dec  2 11:02:16 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.120' (uid=1000 pid=3574 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec  2 11:02:16 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Hostname Service...
+Dec  2 11:02:16 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  2 11:02:16 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Hostname Service.
+Dec  2 11:02:16 admin1-HP-EliteBook-Folio-9480m nautilus[3574]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec  2 11:17:01 admin1-HP-EliteBook-Folio-9480m CRON[3734]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 11:21:32 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Activating service name='org.gnome.Nautilus' requested by ':1.13' (uid=1000 pid=1313 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec  2 11:21:32 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Successfully activated service 'org.gnome.Nautilus'
+Dec  2 11:21:33 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.122' (uid=1000 pid=3772 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec  2 11:21:33 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Hostname Service...
+Dec  2 11:21:33 admin1-HP-EliteBook-Folio-9480m nautilus[3772]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec  2 11:21:33 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  2 11:21:33 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Hostname Service.
+Dec  2 11:21:49 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Some code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Dec  2 11:36:53 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 11:46:28 admin1-HP-EliteBook-Folio-9480m kernel: [ 8471.410138] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 11:58:42 admin1-HP-EliteBook-Folio-9480m systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 4909 (find)
+Dec  2 11:58:43 admin1-HP-EliteBook-Folio-9480m systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Dec  2 11:58:43 admin1-HP-EliteBook-Folio-9480m systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Dec  2 12:04:17 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 12:04:17 admin1-HP-EliteBook-Folio-9480m anacron[4949]: Anacron 2.3 started on 2019-12-02
+Dec  2 12:04:17 admin1-HP-EliteBook-Folio-9480m anacron[4949]: Normal exit (0 jobs run)
+Dec  2 12:11:16 admin1-HP-EliteBook-Folio-9480m kernel: [ 9959.898581] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 12:17:01 admin1-HP-EliteBook-Folio-9480m CRON[5074]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 12:37:03 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 12:39:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: (EE) event6  - SynPS/2 Synaptics TouchPad: kernel bug: Touch jump detected and discarded.
+Dec  2 12:39:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1172]: See https://wayland.freedesktop.org/libinput/doc/1.10.4/touchpad_jumping_cursor.html for details
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m NetworkManager[676]: <info>  [1575271277.0683] connectivity: (wlo1) timed out
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=676 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m NetworkManager[676]: <info>  [1575271277.0684] manager: NetworkManager state is now CONNECTED_SITE
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m whoopsie[974]: [12:51:17] offline
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:51:17 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m NetworkManager[676]: <info>  [1575271548.8009] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=676 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m whoopsie[974]: [12:55:48] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m whoopsie[974]: [12:55:48] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m whoopsie[974]: [12:55:48] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:55:48 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:55:50 admin1-HP-EliteBook-Folio-9480m whoopsie[974]: [12:55:50] online
+Dec  2 13:01:49 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 13:01:50 admin1-HP-EliteBook-Folio-9480m anacron[5445]: Anacron 2.3 started on 2019-12-02
+Dec  2 13:01:50 admin1-HP-EliteBook-Folio-9480m anacron[5445]: Normal exit (0 jobs run)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object .Gjs_AppIndicatorIconActor__1 (0x55e73febc380), has been already finalized. Impossible to set any property to it.
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fbea0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f52c03b5de0 @ 87)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc948 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f52862bf098 @ 58)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e4fca80 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e4fcb40 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e4fcc30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc8c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f52862a9cd0 @ 22)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e4fd880 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc818 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f52862a9340 @ 225)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e4fe460 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc7a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f528629c4d8 @ 37)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc6e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f52c025a120 @ 431)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc660 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f52c025abc0 @ 13)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e4ff160 b   self-hosted:251 (0x7f52c03c3ab0 @ 223)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc5e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f52c025ab38 @ 64)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc560 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f52c025ac48 @ 87)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e500660 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e500e70 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f52c016c670 @ 254)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #17 0x7ffe0e502260 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #18 0x55e73bedc420 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f52c016c450 @ 40)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #19 0x7ffe0e5035c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #20 0x55e73bedc378 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f52c0150bc0 @ 188)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #21 0x7ffe0e504920 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #22 0x55e73bedc2c8 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f52c0150c48 @ 391)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #23 0x7ffe0e505c80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #24 0x55e73bedc240 i   resource:///org/gnome/shell/ui/shellDBus.js:462 (0x7f52c015ad58 @ 67)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #25 0x7ffe0e506fe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #26 0x55e73bedc178 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:295 (0x7f52c03e5450 @ 614)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #27 0x55e73bedc0d0 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:326 (0x7f52c03e5670 @ 34)
+Dec  2 13:05:32 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 13:17:01 admin1-HP-EliteBook-Folio-9480m CRON[5504]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 13:36:27 admin1-HP-EliteBook-Folio-9480m kernel: [15070.384644] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 13:37:13 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 13:43:08 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 13:43:08 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 13:43:08 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 13:43:08 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 13:43:08 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Dec  2 13:49:36 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Activating service name='org.gnome.Nautilus' requested by ':1.13' (uid=1000 pid=1313 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec  2 13:49:36 admin1-HP-EliteBook-Folio-9480m dbus-daemon[1178]: [session uid=1000 pid=1178] Successfully activated service 'org.gnome.Nautilus'
+Dec  2 13:49:37 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.127' (uid=1000 pid=5661 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec  2 13:49:37 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Hostname Service...
+Dec  2 13:49:37 admin1-HP-EliteBook-Folio-9480m nautilus[5661]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec  2 13:49:37 admin1-HP-EliteBook-Folio-9480m dbus-daemon[658]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  2 13:49:37 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Hostname Service.
+Dec  2 13:49:56 admin1-HP-EliteBook-Folio-9480m org.gnome.Nautilus[1178]: javaldx: Could not find a Java Runtime Environment!
+Dec  2 13:49:56 admin1-HP-EliteBook-Folio-9480m org.gnome.Nautilus[1178]: Please ensure that a JVM and the package libreoffice-java-common
+Dec  2 13:49:56 admin1-HP-EliteBook-Folio-9480m org.gnome.Nautilus[1178]: is installed.
+Dec  2 13:49:56 admin1-HP-EliteBook-Folio-9480m org.gnome.Nautilus[1178]: If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Dec  2 13:49:56 admin1-HP-EliteBook-Folio-9480m org.gnome.Nautilus[1178]: Warning: failed to read path from javaldx
+Dec  2 14:01:49 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 14:01:49 admin1-HP-EliteBook-Folio-9480m anacron[5825]: Anacron 2.3 started on 2019-12-02
+Dec  2 14:01:49 admin1-HP-EliteBook-Folio-9480m anacron[5825]: Normal exit (0 jobs run)
+Dec  2 14:12:24 admin1-HP-EliteBook-Folio-9480m kernel: [17227.751946] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 14:17:01 admin1-HP-EliteBook-Folio-9480m CRON[5914]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 14:37:24 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 14:37:38 admin1-HP-EliteBook-Folio-9480m kernel: [18741.640728] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 15:04:32 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 15:04:32 admin1-HP-EliteBook-Folio-9480m anacron[6292]: Anacron 2.3 started on 2019-12-02
+Dec  2 15:04:32 admin1-HP-EliteBook-Folio-9480m anacron[6292]: Normal exit (0 jobs run)
+Dec  2 15:07:44 admin1-HP-EliteBook-Folio-9480m pulseaudio[1001]: W: [pulseaudio] sink-input.c: Failed to create sink input: sink is suspended.
+Dec  2 15:08:58 admin1-HP-EliteBook-Folio-9480m kernel: [20621.096057] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 15:17:01 admin1-HP-EliteBook-Folio-9480m CRON[6399]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 15:18:22 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: ###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Dec  2 15:37:34 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[689]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 15:45:15 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:45:15 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: Object .Gjs_AppIndicatorIconActor__1 (0x55e73de5cfd0), has been already finalized. Impossible to set any property to it.
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: == Stack trace for context 0x55e73bb31340 ==
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #0 0x7ffe0e4fbea0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f52c03b5de0 @ 87)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #1 0x55e73bedc948 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f52862bf098 @ 58)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #2 0x7ffe0e4fca80 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #3 0x7ffe0e4fcb40 b   self-hosted:915 (0x7f52c03f12b8 @ 367)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #4 0x7ffe0e4fcc30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #5 0x55e73bedc8c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f52862a9cd0 @ 22)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #6 0x7ffe0e4fd880 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #7 0x55e73bedc818 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f52862a9340 @ 225)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #8 0x7ffe0e4fe460 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #9 0x55e73bedc7a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f528629c4d8 @ 37)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #10 0x55e73bedc6e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f52c025a120 @ 431)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #11 0x55e73bedc660 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f52c025abc0 @ 13)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #12 0x7ffe0e4ff160 b   self-hosted:251 (0x7f52c03c3ab0 @ 223)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #13 0x55e73bedc5e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f52c025ab38 @ 64)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #14 0x55e73bedc560 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f52c025ac48 @ 87)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #15 0x7ffe0e500660 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f52c03d3230 @ 386)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #16 0x7ffe0e500e70 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f52c016c670 @ 254)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #17 0x7ffe0e502260 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #18 0x55e73bedc420 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f52c016c450 @ 40)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #19 0x7ffe0e5035c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #20 0x55e73bedc378 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f52c0150bc0 @ 188)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #21 0x7ffe0e504920 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #22 0x55e73bedc2c8 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f52c0150c48 @ 391)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #23 0x7ffe0e505c80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #24 0x55e73bedc240 i   resource:///org/gnome/shell/ui/shellDBus.js:462 (0x7f52c015ad58 @ 67)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #25 0x7ffe0e506fe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f52c03b5de0 @ 71)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #26 0x55e73bedc178 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:295 (0x7f52c03e5450 @ 614)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: #27 0x55e73bedc0d0 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:326 (0x7f52c03e5670 @ 34)
+Dec  2 15:51:25 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 15:56:40 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 15:56:40 admin1-HP-EliteBook-Folio-9480m gnome-software[1510]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 15:56:40 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 15:56:40 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 15:56:40 admin1-HP-EliteBook-Folio-9480m gnome-shell[1313]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Dec  2 16:05:59 admin1-HP-EliteBook-Folio-9480m snapd[690]: storehelpers.go:436: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-26-1604", "gnome-3-28-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Dec  2 16:05:59 admin1-HP-EliteBook-Folio-9480m snapd[690]: autorefresh.go:397: auto-refresh: all snaps are up-to-date
+Dec  2 16:15:14 admin1-HP-EliteBook-Folio-9480m kernel: [24598.003679] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 16:17:01 admin1-HP-EliteBook-Folio-9480m CRON[7054]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 16:20:54 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: [Parent 2258, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Dec  2 16:20:54 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1313]: message repeated 2 times: [ [Parent 2258, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709]
+Dec  2 16:24:34 admin1-HP-EliteBook-Folio-9480m gvfsd[1277]: mkdir failed on directory /var/cache/samba: Permission denied
+Dec  2 16:24:36 admin1-HP-EliteBook-Folio-9480m gvfsd[1277]: message repeated 5 times: [ mkdir failed on directory /var/cache/samba: Permission denied]
+Dec  2 16:24:36 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[1606]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed

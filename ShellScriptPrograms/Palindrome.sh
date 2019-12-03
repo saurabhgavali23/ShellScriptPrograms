@@ -1,0 +1,26 @@
+#!\bin\bash -x
+
+function palindrome()
+{
+	TEMP=$NUM;
+	SUM=0;
+	while [ $NUM -gt 0 ]
+	do
+	 	R=$(($NUM % 10))
+		SUM=$((($SUM * 10) + $R))
+		NUM=$(($NUM / 10))
+	done
+
+	if [ $TEMP -eq $SUM ]
+	then
+		echo "$TEMP Number is Palindrome";
+	else
+		echo "$TEMP Number is Not Palindrome";
+	fi
+}
+
+echo "Enter the Number";
+read NUM;
+
+palindrome $NUM;
+
