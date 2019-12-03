@@ -9,7 +9,7 @@ function flipCoin()
 	do
 		rand=$((RANDOM%2))
 
-		if [ $rand -eq 1 ]
+		if (( $rand == 1 ))
 		then
 			HEAD=$((HEAD+1))
 		else

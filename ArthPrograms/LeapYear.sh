@@ -2,11 +2,11 @@
 
 function leapYear()
 {
-	if [ `expr $1 % 4` -eq 0 ]
+	if (( $1 % 4 == 0 ))
 	then
-		if [ `expr $1 % 100` -eq 0 ]
+		if (( $1 % 100 == 0 ))
 		then
-			if [ `expr $1 % 400` -eq 0 ]
+			if (( $1 % 400 == 0 ))
 			then
 				echo "It Is LeapYear"
 			else
