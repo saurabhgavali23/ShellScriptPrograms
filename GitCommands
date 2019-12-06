@@ -1,0 +1,40 @@
+> git add .
+> git status
+> git commit -m "Message"
+> git push origin master
+
+
+> git pull origin master
+	> git diff (show the diff. between local and remote repository)
+	OR
+	> git status
+
+> git clone <git_hub url>
+
+
+> git branch 
+	> git branch <branch Name>
+	> git branch (view branch)
+	> git checkout <branch name> (switch to the another branch)
+
+
+
+edit the file in (master branch)
+> git add .
+> git commit -m "message"
+
+>git checkout <branch name> (switch the branch)
+
+edit the file in (another branch)
+> git add .
+> git commit -m "message"
+
+> git merge master ( to merge with development branch with master branch )
+> (if conflict messge came then resloved it)
+ (go to that file and reslove it)
+
+> git add .
+> git commit -m "merge"
+> git push origin <branch name>
+
+

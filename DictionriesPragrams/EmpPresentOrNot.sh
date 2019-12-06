@@ -67,5 +67,5 @@ echo $len
 
 for (( i=0;i<len;i++ ))
 do
-	echo "Day_$i" ${Day["Day_$i"]}
+	echo "Day_$i" ${Day[Day_$i]}
 done
